@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-WORKDIR /usr/src/api
+WORKDIR /Web/FastAPI-Node-Docker/web
 ADD requirements.txt .
 
 RUN pip install --trusted-host pypi.python.org -r requirements.txt

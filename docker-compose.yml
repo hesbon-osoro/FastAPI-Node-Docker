@@ -9,7 +9,7 @@ services:
     ports:
       - 8000:8000
     volumes:
-      - ./api:/usr/src/api
+      - ./api:/Web/FastAPI-Node-Docker/api
   # Node.js Client
   web:
     container_name: 'web-websocket'
@@ -19,4 +19,4 @@ services:
     ports:
       - 8080:8080
     volumes:
-      - ./web:/usr/src/web
+      - ./web:/Web/FastAPI-Node-Docker/web
