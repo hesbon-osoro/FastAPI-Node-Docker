@@ -1,0 +1,26 @@
+1. Build docker image
+# docker build -t <image_name> .
+
+2. rebuild docker image
+# docker build --no-cache -t <image_name> .
+
+3. Run docker image
+# docker run -d --name <container_name> -p
+<expose_port>:<docker_port> <image_name>
+
+4. Docker start/stop/restart
+docker start <container_name>
+
+5. Docker container shell
+# docker exec -it <container_name> bash
+# docker exec -it <container_name> sh
+
+6. Docker compose up
+# docker-compose up --build
+# docker-compose up -d --build
+
+7. Check docker process
+Show running containers
+# docker ps
+Show both running & stopped containers
+# docker ps -aq
