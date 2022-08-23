@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  # FastAPI Server
+  api:
+    container_name: 'api-websocket'
+    build: ./docker/uvicorn
+    restart: always
+    tty: true
+    ports:
+      - 8000:8000
+    volumes:
+      - ./api:/usr/src/api
+  # Node.js Client
+  web:
+    container_name: 'web-websocket'
+    build: ./docker/node
+    restart: always
+    tty: true
+    ports:
+      - 8080:8080
+    volumes:
+      - ./web:/usr/src/web
