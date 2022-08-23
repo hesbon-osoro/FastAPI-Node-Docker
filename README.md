@@ -25,3 +25,5 @@ docker-compose up --build
 # Open the app
 http://0.0.0.0:8080/
 ```
+
+![WebSocket Chat](assets/websocket%20chat.png)
