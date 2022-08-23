@@ -8,3 +8,4 @@ A basic WebSocket(Client, Server)
 - Docker
 - FastAPI
 - WebSocket
+- Python
