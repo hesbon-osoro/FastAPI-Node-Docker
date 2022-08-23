@@ -2,7 +2,7 @@
 /shelf/
 /workspace.yml
 # Datasource local storage ignored files
-/../../../../:\WORKSPACE\FastAPI-Node-Docker\.idea/dataSources/
+/../../../../~/Web/FastAPI-Node-Docker\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
