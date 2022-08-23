@@ -1,0 +1,14 @@
+{
+	"name": "fastapi-node-docker",
+	"version": "1.0.0",
+	"description": "A basic project for building WebSocket(Server, Client) with FastAPI, Node.js, and Docker",
+	"main": "index.js",
+	"author": "Hesbon Osoro <hesbonosoro1@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	}
+}
